@@ -207,6 +207,11 @@ button {
 
 .portfolio {
   background-color: #ffffff;
+  padding: 94px 0;
+}
+
+.filter {
+  margin-bottom: 50px;
 }
 
 .filter-btn {
@@ -232,6 +237,11 @@ button {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0px 24px 4px 24px;
+}
+
+.portfolio-list img {
+  margin-bottom: 20px;
 }
 
 .portfolio-list a {
@@ -242,4 +252,8 @@ button {
 .portfolio-list p {
   font-size: 16px;
   line-height: 1.87;
+}
+
+.portfolio-text {
+  margin: 0 24px 20px 24px;
 }
