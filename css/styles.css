@@ -14,6 +14,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 address {
@@ -80,6 +82,8 @@ button {
 
 .hero {
   background-color: #2f303a;
+  text-align: center;
+  margin-bottom: 107px;
 }
 
 .hero-title {
@@ -91,6 +95,8 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -112,6 +118,8 @@ button {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .privilege-title {
@@ -120,18 +128,31 @@ button {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .privilege-text {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
+  padding: 0;
+  margin: 0;
+}
+
+.section-mb {
+  margin-bottom: 94px;
 }
 
 /* team */
 
 .our-team {
   background-color: #f5f4fa;
+  padding: 94px 0;
+}
+
+.our-team img {
+  margin-bottom: 30px;
 }
 
 .team-title {
@@ -139,21 +160,32 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 /* footer */
 
 .footer {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 
 .footer-logo {
+  display: inline-block;
   color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.adress li {
+  margin-bottom: 9px;
 }
 
 .adress .link {
