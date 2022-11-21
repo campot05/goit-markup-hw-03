@@ -34,7 +34,13 @@ button {
 
 /* header */
 
+header .container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 93px;
   color: #000000;
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -47,7 +53,18 @@ button {
   color: var(--accent-color);
 }
 
+.main-nav {
+  display: flex;
+}
+
+.main-nav .item + .item {
+  margin-left: 50px;
+}
+
 .main-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -63,6 +80,15 @@ button {
 
 .main-nav .active {
   color: var(--accent-color);
+}
+
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts .item:not(:first-child) {
+  margin-left: 50px;
 }
 
 .contacts-link {
