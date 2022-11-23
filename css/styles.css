@@ -61,8 +61,11 @@ button {
   align-items: center;
 }
 
+.header nav {
+  margin-left: 93px;
+}
+
 .logo {
-  margin-right: 93px;
   color: #000000;
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -131,6 +134,7 @@ button {
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -155,7 +159,7 @@ button {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0px;
   border-radius: 4px;
 }
 
@@ -245,7 +249,11 @@ button {
 }
 
 .our-team img {
-  margin-bottom: 30px;
+  display: block;
+}
+
+.our-team-worker {
+  padding: 30px 0;
 }
 
 .our-team-title {
@@ -260,8 +268,7 @@ button {
 .our-team-text {
   font-size: 16px;
   line-height: 1.18;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0;
 }
 
 /* footer */
@@ -279,6 +286,10 @@ button {
 
 .adress li {
   margin-bottom: 9px;
+}
+
+.adress li:last-of-type {
+  margin-bottom: 0;
 }
 
 .adress .link {
@@ -341,13 +352,12 @@ button {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
 }
 
 .portfolio-item {
   width: calc((100% - 90px) / 3);
-  margin: 15px;
-  border-bottom: 1px #eeeeee solid;
+
+  border: 1px #eeeeee solid;
 }
 
 .portfolio-link {
